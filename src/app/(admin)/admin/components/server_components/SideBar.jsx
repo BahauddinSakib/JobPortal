@@ -35,6 +35,14 @@ const SideBar = () => {
               </Link>
               <hr />
             </li>
+                      {/* Job Posts */}
+               <li>
+              <Link className="sidenav-item-link" href="/admin/job-review">
+                <i className="mdi mdi-briefcase-outline"></i>
+                <span className="nav-text">Job Posts</span>
+              </Link>
+              <hr />
+            </li>
 
 {/* Job Attributes */}
 <li className="has-sub">
@@ -47,7 +55,7 @@ const SideBar = () => {
     }}
     style={{ cursor: 'pointer' }}
   >
-    <i className="mdi mdi-briefcase-outline"></i>
+    <i className="mdi mdi-briefcase-plus"></i>
     <span className="nav-text">Job Attributes</span>{" "}
     <b className="caret"></b>
   </a>
