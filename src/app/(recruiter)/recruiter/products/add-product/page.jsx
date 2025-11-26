@@ -1,5 +1,5 @@
 'use client'
-import useAuthUser from '@/custom_hooks/useAuthUser';
+import useAuthUser from '@/app/custom_hooks/useAuthUser';
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import toast from "react-hot-toast";
@@ -543,5 +543,6 @@ const page = () => {
     </div>
   );
 };
+
 
 export default page;
