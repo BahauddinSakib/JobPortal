@@ -1,5 +1,5 @@
 "use client";
-import useAuthUser from "@/custom_hooks/useAuthUser";
+import useAuthUser from '@/app/custom_hooks/useAuthUser';
 import axios from "axios";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
@@ -196,3 +196,4 @@ const page = () => {
 };
 
 export default page;
+
